@@ -1,0 +1,1 @@
+console.log("The DOM has been loaded");
