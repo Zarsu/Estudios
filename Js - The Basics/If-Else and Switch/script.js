@@ -106,7 +106,7 @@ switch(fruit){
 }
 
 // It's like if-else but with steroids haha
-
+// Switch statemets compare the value using strict equality (===) against multiple cases.
 // Here is an example without breaks.. or at least with a different use of them.
 
 const month = 9;
@@ -136,3 +136,21 @@ switch(month){
         console.log("Unknown month.");
         break;
 }
+
+// One example of cases where switch statements can be 'dangerous'
+
+const myNumber = "2";
+
+switch(myNumber){
+    case 2:
+        console.log("¡Hey, number it's 2!");
+        break;
+    default:
+        console.log("Ummm... it's not 2?");
+        break;
+}
+
+// In this example, the switch statement does not match the case because 'myNumber' is a string "2" and the case is a number 2.
+// Since switch uses strict equality ('==='), the types must also match for the case to be executed.
+// Therefore, the default case runs, logging "Ummm... it's not 2?".
+
