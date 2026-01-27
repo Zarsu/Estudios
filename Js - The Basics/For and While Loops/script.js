@@ -88,3 +88,17 @@ for(const num of evenNumbers){
     console.log(num);
 }
 console.log("The sum of these numbers is: " + sum);
+
+// While loop
+
+console.log("While Loop Example:");
+
+let count = 0;
+while(count < 5){
+    console.log("Count is: " + count);
+    count++;
+}
+
+// 'while(count < 5)' checks the condition before each iteration. If the condition is true, the loop body executes.
+// It's recommended to ensure that the condition will eventually become false to avoid infinite loops.
+// You can also use 'break' and 'continue' in while loops
