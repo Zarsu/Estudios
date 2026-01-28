@@ -203,5 +203,5 @@ player2.login();
 
 
 // Now.. this is how it works under the hood, but it's important to understand that using 'new' is just a syntactic sugar for creating objects using prototypes.
-// The 'standard' way of creating objects is with the keyword 'Class', wich is also syntactic sugar for the prototype-based approach.
+// The 'standard' way of creating objects is with the keyword 'Class', which is also syntactic sugar for the prototype-based approach.
 // To see more about classes, check the 'Classes' lesson.

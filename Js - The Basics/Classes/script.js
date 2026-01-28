@@ -1,15 +1,16 @@
 // Here are the notes from the lesson about classes in JavaScript.
 
 // A class in JavaScript is a blueprint for creating objects with predefined properties and methods.
+// Extra Notes: See 'Objects' lesson for more details about how this works in JavaScript.
 
 class Person {
-    constructor(name, age) {
+    constructor(name, age) { // This is like the function that initializes the object with 'new'
         this.name = name;
         this.age = age;
     }
 
     sayHi(){
-        console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
+        console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`); // And this is like the Person.prototype.sayHi that we see in the object lesson
     }
 }
 
