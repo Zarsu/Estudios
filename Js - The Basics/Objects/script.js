@@ -48,3 +48,29 @@ const book = {
         console.log("Publishing " + this.title + " by " + this.author.name);
     },
 }
+
+
+// We can use a Js property to create objets.
+
+const car = Object.create({});
+car.make = "Toyota";
+car.model = "Corolla";
+car.year = 2021;
+
+// With this we can create a function that generates objects.
+// This is called a factory function.
+
+function brandCreator(brandName, country){
+    const newBrand = Object.create({});
+    newBrand.name = brandName;
+    newBrand.origin = country;
+    newBrand.describe = function(){
+        console.log(this.name + " is from " + this.origin);
+    }
+    return newBrand;
+}
+
+const ford = brandCreator("Ford", "USA");
+const cocaCola = brandCreator("Coca-Cola", "USA");
+ford.describe(); // "Ford is from USA"
+
