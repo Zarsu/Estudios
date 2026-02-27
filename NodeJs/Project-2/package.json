@@ -1,0 +1,25 @@
+{
+  "name": "project-2",
+  "module": "index.ts",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6",
+    "eslint": "^10.0.2",
+    "express": "^5.2.1",
+    "globals": "^17.3.0",
+    "typescript-eslint": "^8.56.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "valibot": "^1.2.0"
+  }
+}
