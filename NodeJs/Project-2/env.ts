@@ -30,8 +30,25 @@ if (!result.success) {
 
 const env = result.output;
 
+/**
+ * Returns whether the current application stage is production.
+ *
+ * @returns `true` when `APP_STAGE` is `production`, otherwise `false`.
+ */
 export const isProd = () => env.APP_STAGE === 'production';
+
+/**
+ * Returns whether the current application stage is development.
+ *
+ * @returns `true` when `APP_STAGE` is `dev`, otherwise `false`.
+ */
 export const isDev = () => env.APP_STAGE === 'dev';
+
+/**
+ * Returns whether the current application stage is test.
+ *
+ * @returns `true` when `APP_STAGE` is `test`, otherwise `false`.
+ */
 export const isTest = () => env.APP_STAGE === 'test';
 
 export {env};

@@ -19,13 +19,18 @@
   },
   "type": "module",
   "dependencies": {
+    "@epic-web/remember": "^1.1.0",
     "@types/cors": "^2.8.19",
     "@types/helmet": "^4.0.0",
     "@types/morgan": "^1.9.10",
+    "@types/pg": "^8.18.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "drizzle-valibot": "^0.4.2",
     "helmet": "^8.1.0",
     "morgan": "^1.10.1",
+    "pg": "^8.20.0",
     "valibot": "^1.2.0"
   }
 }
