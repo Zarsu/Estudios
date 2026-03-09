@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { validate } from "../middleware/validation";
-import { completeParamsSchema, completeSchema, creationSchema } from "../schemas/habits";
+import { completeParamsSchema, completeSchema, creationSchema } from "../schemas/habitsSchema";
 
 const router = Router();
 
