@@ -107,5 +107,4 @@ echo "- Si no hay resultados, mostrar mensaje acorde.<br><br>";
 
 echo "<a href='ejercicio11/ejercicio11.php'>Ejercicio 11</a><br><br>";
 
-
 ?>
