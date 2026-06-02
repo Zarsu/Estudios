@@ -1,8 +1,22 @@
 html, body{
     padding: 0;
     margin: 0;
+    background-color: #121212;
+}
+
+body{
+    display: grid;
+    place-content: center;
+
+    font-family: system-ui;
+    color: white;
 }
 
 canvas{
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: wheat;
+}
+
+h1{
+    text-align: center;
 }
